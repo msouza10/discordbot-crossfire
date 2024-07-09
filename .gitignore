@@ -3,3 +3,7 @@ site-collector.py
 chatgpt.py
 site-collector.py
 steup.sh
+__pycache__/selenium_scraper.cpython-312.pyc
+__pycache__/logger.cpython-312.pyc
+
+
