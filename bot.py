@@ -155,8 +155,8 @@ async def sobre(interaction: discord.Interaction):
         title="Sobre o Desenvolvedor",
         description=(
             "Olá! Eu sou Marcos, o desenvolvedor deste bot. "
-            "Sinta-se à vontade para contribuir ou doar para apoiar meu trabalho.\\n\\n"
-            "[Doações](https://livepix.gg/bigpapa567)\\n"
+            "Sinta-se à vontade para contribuir ou doar para apoiar meu trabalho.\n\n"
+            "[Doações](https://livepix.gg/bigpapa567)\n"
             "[GitHub](https://github.com/msouza10)"
         ),
         color=discord.Color.blue()
