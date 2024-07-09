@@ -1,0 +1,6 @@
+discord.py
+python-dotenv
+selenium
+webdriver-manager
+selenium-stealth
+beautifulsoup4
