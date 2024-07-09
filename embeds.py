@@ -1,5 +1,4 @@
 import discord
-from bs4 import BeautifulSoup
 
 def create_featured_clans_embed(clans):
     embed = discord.Embed(
@@ -86,9 +85,9 @@ def create_clan_details_embed(clan_details):
     embed.add_field(name="URL do Perfil", value=f"[Link]({clan_details['profile_url']})", inline=True)
 
     if clan_details['recent_matches']:
-        matches_description = "\\n".join([
-            f"{match['date']} - {match['result']} - {clan_details['name']} vs {match['opponent_clan']} ({match['score'].replace('\\n', '')}) - no Mapa {match['map_name']}"
-            for match in clan_details['recent_matches']
+        matches_description = "\n".join([
+        f"{match['date']} - {match['result']} - {clan_details['name']} vs {match['opponent_clan']} ({match['score']}) - no Mapa {match['map_name']}"
+        for match in clan_details['recent_matches']
         ])
         embed.add_field(name="Partidas Recentes", value=matches_description, inline=False)
 
